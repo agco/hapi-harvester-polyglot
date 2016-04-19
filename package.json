@@ -23,8 +23,10 @@
   },
   "homepage": "https://github.com/agco/hapi-harvester-polyglot",
   "dependencies": {
+    "agco-event-source-stream": "git+https://github.com/agco/event-source-stream.git#b6973a6fa6c97bebe3a222a541db8e069ea7f1da",
     "bluebird": "^2.10.2",
-    "hapi-harvester": "git+https://github.com/agco/hapi-harvester.git#81cd5d9",
+    "debug": "^2.2.0",
+    "i": "^0.3.4",
     "joi": "^8.0.5",
     "lodash": "^3.10.1"
   },
@@ -32,12 +34,14 @@
     "chai": "^3.3.0",
     "coveralls": "^2.11.2",
     "hapi": "13.0.0",
+    "hapi-harvester": "0.5.0",
     "hapi-swagger": "4.2.1",
     "inject-then": "^2.0.2",
     "istanbul": "^0.3.7",
     "mocha": "^2.3.3",
     "mocha-lcov-reporter": "0.0.2",
     "should": "7.1.1",
+    "supertest-as-promised": "^3.1.0",
     "susie": "^2.0.0"
   }
 }
