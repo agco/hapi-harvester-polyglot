@@ -1,0 +1,43 @@
+{
+  "name": "hapi-harvester-polyglot",
+  "version": "0.0.1",
+  "description": "Harvester Hapi Plugin to translate between JSONAPI 0.8 to 1.0 dialects",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agco/hapi-harvester-polyglot.git"
+  },
+  "keywords": [
+    "hapi",
+    "api",
+    "harvester",
+    "polyglot"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agco/hapi-harvester-polyglot/issues"
+  },
+  "homepage": "https://github.com/agco/hapi-harvester-polyglot",
+  "dependencies": {
+    "bluebird": "^2.10.2",
+    "hapi-harvester": "git+https://github.com/agco/hapi-harvester.git#81cd5d9",
+    "joi": "^8.0.5",
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "coveralls": "^2.11.2",
+    "hapi": "13.0.0",
+    "hapi-swagger": "4.2.1",
+    "inject-then": "^2.0.2",
+    "istanbul": "^0.3.7",
+    "mocha": "^2.3.3",
+    "mocha-lcov-reporter": "0.0.2",
+    "should": "7.1.1",
+    "susie": "^2.0.0"
+  }
+}
