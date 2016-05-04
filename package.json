@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/agco/hapi-harvester-polyglot",
   "dependencies": {
-    "agco-event-source-stream": "git+https://github.com/agco/event-source-stream.git#b6973a6fa6c97bebe3a222a541db8e069ea7f1da",
+    "agco-event-source-stream": "^1.1.2",
     "bluebird": "^2.10.2",
     "debug": "^2.2.0",
     "i": "^0.3.4",
