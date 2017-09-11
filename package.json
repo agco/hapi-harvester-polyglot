@@ -1,6 +1,6 @@
 {
   "name": "hapi-harvester-polyglot",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Harvester Hapi Plugin to translate between JSONAPI 0.8 to 1.0 dialects",
   "main": "index.js",
   "scripts": {
